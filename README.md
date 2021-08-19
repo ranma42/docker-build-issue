@@ -84,7 +84,7 @@ $ DOCKER_BUILDKIT=1 docker build .
 Notice that no time is spent to `load metadata for
 docker.io/library/alpine:latest`; the locally cached copy is being used.
 
-## Build without BuildKit, then disable network
+## Build with BuildKit, then disable network
 If you run the BuildKit command in a clean environment *with connectivity*,
 you should get something like:
 
